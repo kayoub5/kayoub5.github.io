@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sample</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="ledeStory">
+      <div class="g-content">
+        <div class="g-graphic">
+          <div class="g-search">
+            <input type="text" placeholder="Find a company or industry&hellip;">
+            <button style="display:none;" class="g-search-clear">X</button>
+          </div>
+          <div class="g-buttons">
+            <button class="g-button g-active" data-view="overall">The Overall Picture</button>
+            <button class="g-button" data-view="sector">The View by Industry</button>
+          </div>
+        </div>
+        <div class="g-sector-notes"></div>
+        <div class="g-tip" style="width:150px;height:80px;display:none;">
+          <div class="g-tip-shadow"></div>
+          <svg class="g-tip-box" width="150" height="87">
+            <path transform="translate(75,91)" d="M0.5,-6.5l5,-5H74.5v-79H-74.5v79H-5Z"></path>
+          </svg>
+          <div class="g-tip-content">
+            <div class="g-tip-title">Apple</div>
+            <div class="g-tip-metric" data-name="rate">
+              <span class="g-tip-metric-name">Effective tax rate</span>
+              <span class="g-tip-metric-value">14%</span>
+            </div>
+            <div class="g-tip-metric" data-name="taxes">
+              <span class="g-tip-metric-name">Taxes paid</span>
+              <span class="g-tip-metric-value">$4.3B</span>
+            </div>
+            <div class="g-tip-metric" data-name="earnings">
+              <span class="g-tip-metric-name">Earnings</span>
+              <span class="g-tip-metric-value">$16.2B</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+      <script src="script.js"></script>
+      
+    </div><!--close .insetHFullWidth -->
+  </div><!--close .ledeStory -->
+</body>
+</html>
